@@ -28,7 +28,19 @@ class Owner
   def pets
     @pets = {fishes: [], cats: [], dogs: []}
   end
-    
+
+  def buy_fish(fish)
+
+  end
+
+  def buy_cat(cat)
+
+  end
+
+  def buy_dog(dog)
+
+  end
+
 
 
 
