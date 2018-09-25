@@ -6,6 +6,6 @@ class Owner
     @pets = {}
   end
 
-  
-    
+
+
 end
