@@ -1,9 +1,10 @@
 class Owner
   # code goes here
   @@all = []
+  attr_accessor :name
 
   def initialize
-    @pets = {}
+    @pets = {fishes: [], cats: [], dogs: []}
   end
 
   def self.all
@@ -13,6 +14,11 @@ class Owner
   def self.reset_all
     self.all.clear
   end
+
+  def self.count
+    self.all.count
+  end
+
 
 
 
